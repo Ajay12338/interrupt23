@@ -3,9 +3,9 @@
 How to run the app in local machine:
 
 ### Step 1: Clone the repository 
-git clone https://github.com/shivasankari3101/Interrupt-2023.git
+git clone https://github.com/ACE-SVCECSE/interrupt23.git
 ### Step 2: Move to the project directory
-cd Interrupt-2023
+cd interrupt23
 ### Step 3: Install the dependencies to the local node_modules folder
 npm install
 ### Step 4: Run the app in the development mode
