@@ -8,7 +8,6 @@ import React from 'react';
 import styles from './Header.module.css';
 import Home from '../Home/Home';
 import Event from '../Event/Event';
-import EventCard from '../EventCard/EventCard';
 import EventsList from '../EventsList/EventsList';
 import Ace from '../Ace/Ace';
 import Guidelines from '../Guidelines/Guidelines';
@@ -24,9 +23,6 @@ function Header() {
                     </li>
                     <li>
                         <Link to="/event">Event</Link>
-                    </li>
-                    <li>
-                        <Link to="/eventcard">EventCard</Link>
                     </li>
                     <li>
                         <Link to="/eventslist">EventsList</Link>
@@ -45,7 +41,6 @@ function Header() {
                 <Routes>
                     <Route exact path='/' element={< Home/>}></Route>
                     <Route exact path='/event' element={< Event />}></Route>
-                    <Route exact path='/eventcard' element={< EventCard />}></Route>
                     <Route exact path='/eventslist' element={< EventsList />}></Route>
                     <Route exact path='/ace' element={< Ace />}></Route>
                     <Route exact path='/guidelines' element={< Guidelines />}></Route>
